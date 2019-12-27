@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.name         = "RNSpringScrollView"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.homepage     = "https://github.com/Lamboyare/react-native-spring-scrollview"
+  s.homepage     = "https://github.com/Lamboyare/react-native-spring-scrollview-plus"
   s.license      = package["license"]
-  s.author       = { "bolan9999" => "shanshang130@gmail.com" }
+  s.author       = { "Lamboyare" => "Lamboyare@gmail.com" }
   s.platforms    = { :ios => "7.0", :tvos => "9.0" }
   s.source       = { :git => "https://github.com/Lamboyare/react-native-spring-scrollview-plus.git", :tag => s.version }
-  s.source_files  = "src/ios/SpringScrollView/**/*.{h,m}"
+  s.source_files  = "ios/SpringScrollView/**/*.{h,m}"
   s.requires_arc = true
 
   s.dependency "React"
